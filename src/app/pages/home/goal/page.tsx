@@ -1,0 +1,133 @@
+import Image from "next/image";
+
+const Goal = () => {
+  return (
+    <div className="  mx-24  mb-48">
+      <div className=" grid grid-cols-1 lg:grid-cols-2 items-center gap-4 mt-8 px-36">
+        <div className=" col-span-1 ">
+          <Image src="/ball.png" alt="ball" width={525} height={635} />
+        </div>
+        <div className=" col-span-1  relative">
+          <Image
+            src="/subtract.svg"
+            alt="sub"
+            width={23}
+            height={23}
+            className=" absolute right-0"
+          />
+          <Image
+            src="/subtractx.svg"
+            alt="sub"
+            width={23}
+            height={23}
+            className=" absolute left-0 bottom-0"
+          />
+          <div className="font-bold font-[Hanson] text-[52px]">
+            Reach your body <span className=" text-[#F15C36]">Goals</span>
+          </div>
+          <div className="font-[400] font-[Poppins] text-[20px]">
+            Personalized Training & Nutrition Plans Designed to Perfectly Align
+            with Your Lifestyle, Fitness Goals, and Daily Routine for
+            Sustainable Results.
+          </div>
+          <div className="">
+            <div className=" flex gap-8 mt-6">
+              <div className="">
+                <Image
+                  src="/tick.svg"
+                  alt="tick"
+                  width={40}
+                  height={40}
+                  className=" relative"
+                />
+                <Image
+                  src="/click.svg"
+                  alt="tick"
+                  width={40}
+                  height={40}
+                  className=" -mt-7 -z-20"
+                />
+              </div>
+              <div className="font-[400] font-[Poppins] text-[20px] mt-7 ">
+                Certified Personal Train
+              </div>
+            </div>
+            <div className=" flex gap-8 mt-6">
+              <div className="">
+                <Image
+                  src="/tick.svg"
+                  alt="tick"
+                  width={40}
+                  height={40}
+                  className=" relative"
+                />
+                <Image
+                  src="/click.svg"
+                  alt="tick"
+                  width={40}
+                  height={40}
+                  className=" -mt-7 -z-20"
+                />
+              </div>
+              <div className="font-[400] font-[Poppins] text-[20px] mt-7 ">
+                Customized Workout & Diet Plans
+              </div>
+            </div>
+            <div className=" flex gap-8 mt-6">
+              <div className="">
+                <Image
+                  src="/tick.svg"
+                  alt="tick"
+                  width={40}
+                  height={40}
+                  className=" relative"
+                />
+                <Image
+                  src="/click.svg"
+                  alt="tick"
+                  width={40}
+                  height={40}
+                  className=" -mt-7 -z-20"
+                />
+              </div>
+              <div className="font-[400] font-[Poppins] text-[20px] mt-7 ">
+                100+ Client Transformations
+              </div>
+            </div>
+            <div className=" flex gap-8 mt-6">
+              <div className="">
+                <Image
+                  src="/tick.svg"
+                  alt="tick"
+                  width={40}
+                  height={40}
+                  className=" relative"
+                />
+                <Image
+                  src="/click.svg"
+                  alt="tick"
+                  width={40}
+                  height={40}
+                  className=" -mt-7 -z-20"
+                />
+              </div>
+              <div className="font-[400] font-[Poppins] text-[20px] mt-7 ">
+                Train Anytime, Anywhere
+              </div>
+            </div>
+          </div>
+          <div className=" my-8">
+            <button className=" px-4 py-2 border-2 border-white rounded-full flex ">
+              <div className="font-[500] font-[Poppins] text-[16px] ">
+                BOOK A FREE CONSULTANT
+              </div>
+              <Image src="/arrow-up.svg" alt="tick" width={25} height={25} />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Goal;
