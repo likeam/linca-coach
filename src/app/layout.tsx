@@ -27,7 +27,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${poppins.style} ${hanson.style} antialiased`}>
         <div className=" w-full h-full text-white bg-[#272727] ">
-          <div className=" h-24 mx-24">
+          <div className=" h-24 mx-8 md:mx-12 lg:mx-24">
             <Navbar />
           </div>
           <div className="">{children}</div>

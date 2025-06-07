@@ -22,10 +22,10 @@ const Goal = () => {
             height={23}
             className=" absolute left-0 bottom-0"
           />
-          <div className="font-bold font-[Hanson] text-[52px]">
+          <div className="font-[500] md:font-[600] lg:font-bold font-[Hanson] text-[24px] md:text-[48px] lg:text-[52px]">
             Reach your body <span className=" text-[#F15C36]">Goals</span>
           </div>
-          <div className="font-[400] font-[Poppins] text-[20px]">
+          <div className="font-[300] lg:font-[400] font-[Poppins] text-[12px]  lg:text-[20px]">
             Personalized Training & Nutrition Plans Designed to Perfectly Align
             with Your Lifestyle, Fitness Goals, and Daily Routine for
             Sustainable Results.

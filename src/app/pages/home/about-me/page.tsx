@@ -1,9 +1,10 @@
+import Line from "@/app/(components)/line";
 import Image from "next/image";
 import React from "react";
 
 const AboutMe = () => {
   return (
-    <div className="m-24 bg-[#F15C36] rounded-lg p-8 ">
+    <div className="m-24 bg-[#F15C36] rounded-lg p-8 overflow-hidden ">
       <div className=" grid grid-cols-2 border border-black border-dashed   rounded-lg ">
         <div className=" col-span-1 m-24">
           <div className="">
@@ -85,36 +86,16 @@ const AboutMe = () => {
         <div className=" col-span-1">
           <Image src="/about1.png" alt="ball" width={515} height={631} />
         </div>
-        <div className="inline-block rotate-[120deg] origin-right -mt-7  ">
-          <div className=" flex gap-24  text-white items-center justify-center bg-[#333946]">
-            <div className="font-[400] font-[Poppins] text-[16px]">
-              DEDICATION
+        <div className=" inline-block rotate-[-16deg] origin-bottom-right">
+          <div className="inline-block rotate-[-12deg] origin-center -mt-7  ">
+            <div className=" flex gap-24  text-white items-center justify-center bg-[#333946]">
+              <Line />
             </div>
-            <div className=" h-[7px] w-[7px] bg-[#F15C36] rounded-full" />
-            <div className="font-[400] font-[Poppins] text-[16px] py-3">
-              CONSISTENCY
-            </div>
-            <div className=" h-[7px] w-[7px] bg-[#F15C36] rounded-full" />
-            <div className="font-[400] font-[Poppins] text-[16px]">
-              TRAINING
-            </div>
-            <div className=" h-[7px] w-[7px] bg-[#F15C36] rounded-full" />
           </div>
-        </div>
-        <div className="inline-block rotate-[8deg] origin-center -mt-7">
-          <div className=" flex gap-24 bg-white text-black items-center justify-center">
-            <div className="font-[400] font-[Poppins] text-[16px]">
-              DEDICATION
+          <div className="inline-block rotate-[2deg] origin-center -mt-7">
+            <div className=" flex gap-24 bg-white text-black items-center justify-center">
+              <Line />
             </div>
-            <div className=" h-[7px] w-[7px] bg-[#F15C36] rounded-full" />
-            <div className="font-[400] font-[Poppins] text-[16px] py-3">
-              CONSISTENCY
-            </div>
-            <div className=" h-[7px] w-[7px] bg-[#F15C36] rounded-full" />
-            <div className="font-[400] font-[Poppins] text-[16px]">
-              TRAINING
-            </div>
-            <div className=" h-[7px] w-[7px] bg-[#F15C36] rounded-full" />
           </div>
         </div>
       </div>
