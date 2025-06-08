@@ -1,3 +1,4 @@
+import ClickWhite from "@/app/(components)/click-white";
 import Line from "@/app/(components)/line";
 import Image from "next/image";
 import React from "react";
@@ -18,64 +19,19 @@ const AboutMe = () => {
             </div>
             <div className="">
               <div className=" flex gap-8 mt-6">
-                <div className="">
-                  <Image
-                    src="/tickw.svg"
-                    alt="tick"
-                    width={40}
-                    height={40}
-                    className=" relative "
-                  />
-                  <Image
-                    src="/click.svg"
-                    alt="tick"
-                    width={40}
-                    height={40}
-                    className=" -mt-7 -z-20"
-                  />
-                </div>
+                <ClickWhite />
                 <div className="font-[400] font-[Poppins] text-[20px] mt-7 ">
                   European Certified Personal Trainer / REPs UAE
                 </div>
               </div>
               <div className=" flex gap-8 mt-6">
-                <div className="">
-                  <Image
-                    src="/tickw.svg"
-                    alt="tick"
-                    width={40}
-                    height={40}
-                    className=" relative "
-                  />
-                  <Image
-                    src="/click.svg"
-                    alt="tick"
-                    width={40}
-                    height={40}
-                    className=" -mt-7 -z-20"
-                  />
-                </div>
+                <ClickWhite />
                 <div className="font-[400] font-[Poppins] text-[20px] mt-7 ">
-                  Powerlifter️
+                  Powerlifter️ - 52kg IPF
                 </div>
               </div>
               <div className=" flex gap-8 mt-6">
-                <div className="">
-                  <Image
-                    src="/tickw.svg"
-                    alt="tick"
-                    width={40}
-                    height={40}
-                    className=" relative "
-                  />
-                  <Image
-                    src="/click.svg"
-                    alt="tick"
-                    width={40}
-                    height={40}
-                    className=" -mt-7 -z-20"
-                  />
-                </div>
+                <ClickWhite />
                 <div className="font-[400] font-[Poppins] text-[20px] mt-7 ">
                   Strength Coach
                 </div>
