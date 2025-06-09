@@ -11,7 +11,9 @@ const Hero = () => {
           </div>
         </div>
         <div className=" col-span-1  ">
-          <Image src="/hero1.png" alt="hero" width={400} height={550} />
+          <div className="">
+            <Image src="/hero1.png" alt="hero" width={400} height={550} />
+          </div>
         </div>
       </div>
       <div className=" hidden lg:inline-block rotate-[-8deg] origin-center  mt-7">
