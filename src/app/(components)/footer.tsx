@@ -83,7 +83,7 @@ const Footer = () => {
 
         <div className=" mt-36">
           <div className=" flex justify-between">
-            <p className="">© 2025 SMB DigitalZone. All Rights Reserved. </p>
+            <p className="">© 2025 Abdul Rehman. All Rights Reserved. </p>
             <div className=" flex justify-center items-center gap-2 md:gap-12">
               <div className=" font-[Poppins] text-[12px] lg:text-[16px] text-[400] ">
                 Privacy Policy
