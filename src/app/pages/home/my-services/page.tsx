@@ -2,12 +2,12 @@ import Image from "next/image";
 
 const MyServices = () => {
   return (
-    <div className=" m-4 lg:m-36">
-      <div className=" flex justfy-center xl:gap-[250px]">
-        <div className="font-[Hanson] text-[24px] lg:text-[52px] text-[700]">
+    <div className=" m-4 lg:m-4 xl:m-36 ">
+      <div className=" grid grid-cols-3">
+        <div className=" col-span-1 font-[Hanson] text-[24px] lg:text-[52px] text-[700]">
           My <span className=" text-[#F15C36]">Services</span>{" "}
         </div>
-        <div className=" hidden lg:block">
+        <div className=" col-span-2 hidden lg:block  justify-center lg:pl-28 xl:pl-40 ]">
           <Image
             src="/linearrow.png"
             alt="arrowdwon"
@@ -16,7 +16,7 @@ const MyServices = () => {
           />
         </div>
       </div>
-      <div className="flex flex-col md:flex-row lg:gap-4 xl:gap-8 items-center justify-center mt-12">
+      <div className="flex flex-col md:flex-row  xl:gap-8 items-center justify-center mt-12">
         <div className="">
           <div className=" flex items-center gap-4">
             <div className="">
@@ -56,31 +56,30 @@ const MyServices = () => {
             </div>
           </div>
         </div>
-        <div className="">
-          <div className=" border-l-[1px] border-r-[1px]  border-[#FFFFFF] hidden lg:block lg:p-8 xl:p-12">
-            <div className=" flex flex-col gap-32">
-              <Image
-                src="/arrowcolordown.svg"
-                alt="aorrowdown"
-                width={23}
-                height={12}
-              />
-              <Image
-                src="/arrowcolordown.svg"
-                alt="aorrowdown"
-                width={23}
-                height={12}
-              />
-              <Image
-                src="/arrowcolordown.svg"
-                alt="aorrowdown"
-                width={23}
-                height={12}
-              />
-            </div>
+
+        <div className=" border-l-[1px] border-r-[1px]  border-[#FFFFFF] hidden lg:block lg:p-8 xl:p-12">
+          <div className=" flex flex-col gap-32">
+            <Image
+              src="/arrowcolordown.svg"
+              alt="aorrowdown"
+              width={23}
+              height={12}
+            />
+            <Image
+              src="/arrowcolordown.svg"
+              alt="aorrowdown"
+              width={23}
+              height={12}
+            />
+            <Image
+              src="/arrowcolordown.svg"
+              alt="aorrowdown"
+              width={23}
+              height={12}
+            />
           </div>
         </div>
-        <div className="">
+        <div className=" ">
           <div className=" flex items-center gap-4">
             <div className="">
               <Image

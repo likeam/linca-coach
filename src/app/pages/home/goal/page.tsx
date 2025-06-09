@@ -3,8 +3,8 @@ import Image from "next/image";
 
 const Goal = () => {
   return (
-    <div className=" mx-2 md:mx-8 lg:mx-24 xl:px-48   mb-48">
-      <div className=" grid grid-cols-1 lg:grid-cols-2 items-center gap-4 mt-4 lg:mt-8 px-2 lg:px-36">
+    <div className=" mx-2 md:mx-8 lg:mx-12 xl:px-48   mb-48">
+      <div className=" grid grid-cols-1 lg:grid-cols-2 items-center gap-4 lg:gap-8 mt-4 lg:mt-8 px-2 lg:px-6">
         <div className=" col-span-1 ">
           <Image src="/ball.png" alt="ball" width={525} height={635} />
         </div>

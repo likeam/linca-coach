@@ -7,7 +7,7 @@ const AboutMe = () => {
   return (
     <div className="m-4 lg:m-24 bg-[#F15C36] rounded-lg p-8 overflow-hidden ">
       <div className=" grid grid-cols-1 lg:grid-cols-2 border border-black border-dashed   rounded-lg ">
-        <div className=" col-span-1 m-4 lg:m-24">
+        <div className=" col-span-1 m-4 lg:m-12 xl:m-24">
           <div className="">
             <div className="font-bold font-[Hanson] text-[24px] lg:text-[44px] ">
               About Me
