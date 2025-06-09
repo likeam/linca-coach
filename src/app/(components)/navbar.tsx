@@ -67,7 +67,7 @@ const Navbar = () => {
     { url: "../pages/contact", title: "Contact" },
   ];
   return (
-    <div className=" h-full flex items-center justify-between   border-b-[1px] px-2 md:px-8 lg:px-24 xl:px-48 border-white">
+    <div className=" h-full flex items-center justify-between   border-b-[1px] px-2 md:px-4 lg:px-12 xl:px-24 border-white">
       <div className=" ">
         <Image src="/Logo.svg" alt="logo" width={208} height={34} />
       </div>

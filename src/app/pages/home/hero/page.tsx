@@ -4,7 +4,7 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <div className="  w-full   h-screen  ">
-      <div className=" grid grid-cols-1 lg:grid-cols-3 items-center gap-6 mt-8 mx-2 lg:mx-24">
+      <div className=" grid grid-cols-1 lg:grid-cols-3 items-center md:gap-2 lg:gap-4 xl:gap6 mt-8 mx-2 lg:mx-14 xl:mx-24">
         <div className=" col-span-2">
           <div className=" w-1/3 py-2 text-[40px]  md:text-[60px] rounded-full  font-bold lg:text-[90px] font-[hanson] ">
             UNLEASH YOUR INNER STRENGTH
